@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Header from "./reusable/header";
+import Footer from "./reusable/footer";
 import "../App.css";
 
 class Portfolio extends Component {
@@ -7,7 +8,12 @@ class Portfolio extends Component {
   render() {
     return (
       <div>
-        <Header />
+        <div>
+          <Header />
+        </div>
+        <div>
+          <Footer />
+        </div>
       </div>
     );
   }

@@ -3,3 +3,19 @@
   font-size: 18px;
   color: white;
 }
+
+.footer {
+  background-color: #383d45;
+}
+
+.footer-icon-wrapper {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.footer-icons {
+  border-radius: 50%;
+  width: 40px;
+}
