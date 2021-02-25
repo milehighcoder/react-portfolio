@@ -1,9 +1,42 @@
+/* NAV STARTS HERE */
 .nav-link {
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
   color: white;
 }
+/* NAV ENDS HERE */
 
+/* BIO STARTS HERE */
+.bio-body {
+  margin-top: 200px;
+  padding-bottom: 50px;
+}
+
+.bio-header {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: -90px;
+}
+
+.bio-img {
+  width: 100%;
+}
+
+.bio-text {
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: left;
+}
+
+.bio-icons {
+  border-radius: 50%;
+  width: 50px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+/* BIO ENDS HERE */
+
+/* FOOTER STARTS HERE */
 .footer {
   background-color: #383d45;
 }
@@ -19,3 +52,5 @@
   border-radius: 50%;
   width: 40px;
 }
+/* FOOTER ENDS HERE */
+

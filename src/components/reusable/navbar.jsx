@@ -1,9 +1,10 @@
 import React, { Component } from "react";
 
-class Header extends Component {
+class Navbar extends Component {
   state = {};
   render() {
     return (
+      //Navbar
       <div className="fixed-top">
         <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
           <a className="navbar-brand" href="#">
@@ -54,4 +55,4 @@ class Header extends Component {
   }
 }
 
-export default Header;
+export default Navbar;

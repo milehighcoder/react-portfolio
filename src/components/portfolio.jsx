@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import Header from "./reusable/header";
+import Navbar from "./reusable/navbar";
+import About from "./about";
 import Footer from "./reusable/footer";
 import "../App.css";
 
@@ -9,7 +10,10 @@ class Portfolio extends Component {
     return (
       <div>
         <div>
-          <Header />
+          <Navbar />
+        </div>
+        <div>
+          <About />
         </div>
         <div>
           <Footer />
