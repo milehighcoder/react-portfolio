@@ -1,19 +1,23 @@
 import React, { Component } from "react";
-import ProfilePic from '../assets/images/black-white-candid.JPG';
+import ProfilePic from "../assets/images/black-white-candid.JPG";
 
 class About extends Component {
   state = {};
+  
   render() {
     return (
       <div className="container bio-body">
+        <section id="bio" className="container-fluid bio-header">
+          <div className="row">
+            <div className="col-lg-12">
+              <h1>IMPACT THROUGH DESIGN.</h1>
+            </div>
+          </div>
+        </section>
         <div className="row">
           <div className="col-lg-5">
             <span>
-              <img
-                src={ProfilePic}
-                className="img-fluid bio-img"
-                alt=""
-              ></img>
+              <img src={ProfilePic} className="img-fluid bio-img" alt=""></img>
             </span>
           </div>
           <div className="col-lg-7 bio-text">

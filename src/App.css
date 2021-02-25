@@ -1,3 +1,10 @@
+h1 {
+  font-family: 'Public Sans', sans-serif;
+  font-size: 64px !important;
+  font-weight: 900 !important;
+  margin-bottom: 40px;
+}
+
 /* NAV STARTS HERE */
 .nav-link {
   font-family: "Open Sans", sans-serif;
@@ -8,14 +15,14 @@
 
 /* BIO STARTS HERE */
 .bio-body {
-  margin-top: 200px;
+  margin-top: 120px;
   padding-bottom: 50px;
 }
 
 .bio-header {
   text-align: center;
   margin-top: 40px;
-  margin-bottom: -90px;
+  margin-bottom: 40px;
 }
 
 .bio-img {
