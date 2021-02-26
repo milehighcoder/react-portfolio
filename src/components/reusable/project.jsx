@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import whenWeCleanImg from "../../assets/images/wwc-screenshot.png";
 
 class Project extends Component {
   state = {};
@@ -9,20 +8,16 @@ class Project extends Component {
         <div className="row project-row">
           <div className="col-lg-6">
             <img
-              src={whenWeCleanImg}
+              src={this.props.projectImg}
               className="img-fluid"
-              alt="When We Clean App Screenshot"
+              alt={this.props.altTag}
             ></img>
           </div>
           <div className="col-lg-6 card-body">
-            <h3 id="project-h3">When We Clean</h3>
-            <p>
-              When We Clean allows hotel cleaning crew managers to easily manage
-              their team's schedules in a simple, high powered web-based
-              application.
-            </p>
+            <h3 id="project-h3">{this.props.title}</h3>
+            <p>{this.props.description}</p>
             <a
-              href="https://when-we-clean.herokuapp.com/"
+              href={this.props.deployLink}
               target="_blank"
               rel="noreferrer"
               className="btn btn-dark btn-deploy"
@@ -30,7 +25,7 @@ class Project extends Component {
               Deploy App
             </a>
             <a
-              href="https://github.com/milehighcoder/project-two"
+              href={this.props.repoLink}
               target="_blank"
               rel="noreferrer"
               className="btn btn-dark btn-repo"
