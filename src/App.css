@@ -1,5 +1,5 @@
 h1 {
-  font-family: 'Public Sans', sans-serif;
+  font-family: "Public Sans", sans-serif;
   font-size: 64px !important;
   font-weight: 900 !important;
   margin-bottom: 40px;
@@ -63,12 +63,12 @@ h1 {
   color: white;
   font-weight: 400;
   margin-top: 30px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .btn-deploy:hover {
   background-color: silver !important;
-  color: #383D45 !important;
+  color: #383d45 !important;
 }
 
 .btn-repo {
@@ -78,16 +78,15 @@ h1 {
   color: #383d45;
   font-weight: 400;
   margin-top: 30px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .btn-repo:hover {
   background-color: #ffffff !important;
-  color: #383D45 !important;
+  color: #383d45 !important;
   border: 1px solid silver !important;
 }
 /* PROJECT ENDS HERE */
-
 
 /* FOOTER STARTS HERE */
 .footer {
@@ -106,4 +105,3 @@ h1 {
   width: 40px;
 }
 /* FOOTER ENDS HERE */
-
