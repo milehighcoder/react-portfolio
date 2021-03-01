@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.01f0d242.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.b2622a90.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.b2622a90.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.ea97e557.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.ea97e557.js.map",
+    "static/css/2.abec5154.chunk.css": "/react-portfolio/static/css/2.abec5154.chunk.css",
+    "static/js/2.f9e58ba1.chunk.js": "/react-portfolio/static/js/2.f9e58ba1.chunk.js",
+    "static/js/2.f9e58ba1.chunk.js.map": "/react-portfolio/static/js/2.f9e58ba1.chunk.js.map",
+    "static/js/3.b22f2b49.chunk.js": "/react-portfolio/static/js/3.b22f2b49.chunk.js",
+    "static/js/3.b22f2b49.chunk.js.map": "/react-portfolio/static/js/3.b22f2b49.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "static/css/2.abec5154.chunk.css.map": "/react-portfolio/static/css/2.abec5154.chunk.css.map",
+    "static/css/main.01f0d242.chunk.css.map": "/react-portfolio/static/css/main.01f0d242.chunk.css.map",
+    "static/js/2.f9e58ba1.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.f9e58ba1.chunk.js.LICENSE.txt",
+    "static/media/budget-tracker.069adb93.png": "/react-portfolio/static/media/budget-tracker.069adb93.png",
+    "static/media/dark-logo.ef6753df.png": "/react-portfolio/static/media/dark-logo.ef6753df.png",
+    "static/media/font-awesome.css": "/react-portfolio/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/profile-headshot.cc639d14.png": "/react-portfolio/static/media/profile-headshot.cc639d14.png",
+    "static/media/quote-pic.bece4bcb.png": "/react-portfolio/static/media/quote-pic.bece4bcb.png",
+    "static/media/resume.fa6b8aff.pdf": "/react-portfolio/static/media/resume.fa6b8aff.pdf",
+    "static/media/shopping-cart.ac6a96e0.png": "/react-portfolio/static/media/shopping-cart.ac6a96e0.png",
+    "static/media/video-tracker.5cfd717a.png": "/react-portfolio/static/media/video-tracker.5cfd717a.png",
+    "static/media/weather-app.c3ec0cd2.png": "/react-portfolio/static/media/weather-app.c3ec0cd2.png",
+    "static/media/wwc-screenshot.343d62fd.png": "/react-portfolio/static/media/wwc-screenshot.343d62fd.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ea97e557.js",
+    "static/css/2.abec5154.chunk.css",
+    "static/js/2.f9e58ba1.chunk.js",
+    "static/css/main.01f0d242.chunk.css",
+    "static/js/main.b2622a90.chunk.js"
+  ]
+}
