@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Navbar from "./reusable/navbar";
 import About from "./about";
 import Project from "./reusable/project";
+import Contact from "./reusable/contact";
 import whenWeCleanImg from "../assets/images/wwc-screenshot.png";
 import quotePicImg from "../assets/images/project-graphics/quote-pic.png";
 import weatherAppImg from "../assets/images/project-graphics/weather-app.png";
@@ -22,7 +23,9 @@ class Portfolio extends Component {
         <div>
           <About />
         </div>
-        <div className='project-wrapper'>
+
+        <h1>Projects</h1>
+        <div className="project-wrapper">
           <Project
             projectImg={whenWeCleanImg}
             altTag={"When We Clean"}
@@ -63,7 +66,7 @@ class Portfolio extends Component {
             deployLink={"https://milehighcoder-budget-tracker.herokuapp.com/"}
             repoLink={"https://github.com/milehighcoder/budget-tracker"}
           />
-          
+
           <Project
             projectImg={weatherAppImg}
             altTag={"Weather Forecast App"}
@@ -85,6 +88,10 @@ class Portfolio extends Component {
             repoLink={"https://github.com/MHutchbot/Project-One"}
           />
         </div>
+        <div>
+          <Contact />
+        </div>
+
         <div>
           <Footer />
         </div>

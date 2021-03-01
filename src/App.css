@@ -45,7 +45,7 @@ h1 {
 
 /* PROJECT STARTS HERE */
 .project-wrapper {
-  margin-bottom: 500px;
+  margin-bottom: 300px;
 }
 
 #project-h3 {
@@ -109,3 +109,86 @@ h1 {
   width: 40px;
 }
 /* FOOTER ENDS HERE */
+
+/* CONTACT START HERE */
+.contact-wrapper {
+  margin-top: -180px;
+  margin-bottom: 250px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.wrapper .input-data {
+  height: 40px;
+  width: 100%;
+  position: relative;
+  margin-top: 30px;
+}
+
+.wrapper .input-data input {
+  height: 100%;
+  width: 100%;
+  background: none;
+  border: none;
+  border-bottom: 2px solid silver;
+  color: silver;
+  outline: none;
+  font-size: 16px;
+  box-shadow: none;
+}
+
+.input-data input:focus ~ label,
+.input-data input:valid ~ label {
+  transform: translateY(-20px);
+  font-size: 16px;
+  color: #01a1f1;
+}
+
+.wrapper .input-data .underline {
+  position: absolute;
+  bottom: 0px;
+  height: 2px;
+  width: 100%;
+  background: silver;
+}
+
+.wrapper .input-data .underline:before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  background: #01a1f1;
+
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.input-data input:focus ~ .underline:before,
+.input-data input:valid ~ .underline:before {
+  transform: scaleX(1);
+}
+
+.wrapper .input-data label {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  color: silver;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+.contact-button {
+  background-color: #4385f4 !important;
+  border: none !important;
+  border-radius: 5px;
+  margin-left: 0;
+  margin-right: 10px;
+  color: white;
+  font-weight: 400;
+  margin-top: 30px;
+  font-family: "Roboto", sans-serif;
+}
+
+.contact-button:hover {
+  background-color: silver !important;
+  color: #383d45 !important;
+}
