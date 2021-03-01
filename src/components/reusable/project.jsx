@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 
 class Project extends Component {
-  state = {};
   render() {
     return (
       <section className="container-fluid">

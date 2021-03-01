@@ -29,7 +29,7 @@ class Contact extends Component {
           </div>
           <div className="wrapper">
             <div className="input-data">
-              <input name="message" required></input>
+              <input type='text' name="message" required></input>
               <div className="underline"></div>
               <label>Message</label>
             </div>
