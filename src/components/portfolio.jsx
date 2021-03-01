@@ -23,8 +23,7 @@ class Portfolio extends Component {
         <div>
           <About />
         </div>
-
-        <h1>Projects</h1>
+        <h1 id='projects'>Projects</h1>
         <div className="project-wrapper">
           <Project
             projectImg={whenWeCleanImg}
@@ -91,7 +90,6 @@ class Portfolio extends Component {
         <div>
           <Contact />
         </div>
-
         <div>
           <Footer />
         </div>

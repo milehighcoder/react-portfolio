@@ -1,19 +1,12 @@
 import React, { Component } from "react";
-import ProfilePic from "../assets/images/black-white-candid.JPG";
+import ProfilePic from "../assets/images/profile-headshot.png";
 
 class About extends Component {
   state = {};
-  
+
   render() {
     return (
-      <div className="container bio-body">
-        <section id="bio" className="container-fluid bio-header">
-          <div className="row">
-            <div className="col-lg-12">
-              <h1>IMPACT THROUGH DESIGN.</h1>
-            </div>
-          </div>
-        </section>
+      <div id='about' className="container bio-body">
         <div className="row">
           <div className="col-lg-5">
             <span>
@@ -22,13 +15,15 @@ class About extends Component {
           </div>
           <div className="col-lg-7 bio-text">
             <p>
-              I’m an obsessive driven by the purpose of helping others achieve
-              greatness. If you want to be first, let’s crush the competition
-              together. From initial conception to deployment, Mychal helps
+              My name is Mychal Martinez. I am a Full Stack Web Developer and UX/UI Designer 
+              driven by the purpose of helping others achieve greatness through their digital products.
+              <br />
+              <br />
+              From initial conception to deployment, I help
               people solve problems through a holistic design approach while
-              utilizing his rapidly growing technical skills in front and back
+              utilizing my rapidly growing technical skills in front and back
               end web development to transfer a brand’s personality seamlessly
-              throughout the interface of a product. He is passionate about not
+              throughout the interface of a product. I am passionate about not
               only creating aesthetically pleasing designs but products that
               function at the highest possible level in order to enhance a
               user’s experience on a digital screen.

@@ -5,6 +5,7 @@ class Contact extends Component {
     return (
       <form
         className="contact-wrapper"
+        id="contact"
         action="https://formspree.io/f/mwkwdoaq"
         method="POST"
       >
@@ -51,12 +52,3 @@ class Contact extends Component {
 }
 
 export default Contact;
-
-{
-  /* 
-            
-           
-            <textarea name='message'></textarea>
-           
-        */
-}

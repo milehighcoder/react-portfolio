@@ -1,18 +1,15 @@
 import React, { Component } from "react";
+import mmLogo from "../../assets/logos/dark-logo.png";
+import Resume from "../../assets/resume.pdf";
 
 class Navbar extends Component {
   state = {};
   render() {
     return (
-      //Navbar
-      <div className="fixed-top">
+      <div className="fixed-top nav-container">
         <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-          <a className="navbar-brand" href="#">
-            <img
-              className="nav-logo"
-              src="assets/logos/dark-logo-full.png"
-              alt=""
-            ></img>
+          <a className="navbar-brand" href="#about">
+            <img className="imgHead" src={mmLogo} alt=""></img>
           </a>
           <button
             className="navbar-toggler"
@@ -28,17 +25,17 @@ class Navbar extends Component {
           <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
             <ul className="navbar-nav mr-auto mt-2 mt-lg-0 float-right">
               <li className="nav-item">
-                <a className="nav-link" href="#bio">
-                  Bio<span className="sr-only">(current)</span>
+                <a className="nav-link" href="#about">
+                  About<span className="sr-only">(current)</span>
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#work">
-                  Work<span className="sr-only">(current)</span>
+                <a className="nav-link" href="#projects">
+                  Projects<span className="sr-only">(current)</span>
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="resume.html" target="_blank">
+                <a className="nav-link" href={Resume} rel="noreferrer" target="_blank">
                   Resume
                 </a>
               </li>
