@@ -6,7 +6,7 @@ class About extends Component {
 
   render() {
     return (
-      <div id='about' className="container bio-body">
+      <div id="about" className="container bio-body">
         <div className="row">
           <div className="col-lg-5">
             <span>
@@ -15,18 +15,18 @@ class About extends Component {
           </div>
           <div className="col-lg-7 bio-text">
             <p>
-              My name is Mychal Martinez. I am a Full Stack Web Developer and UX/UI Designer 
-              driven by the purpose of helping others achieve greatness through their digital products.
+              Welcome to my portfolio! I am a Technical Project Manager
+              (Professional Scrum Master certification in progress) with over 8
+              years of business and program management experience. I am a
+              certified web developer with an eye for design, exceptional
+              technical aptitude, and the ability to perform in high-pressure
+              environments. Currently, I am seeking to make an impact with a
+              company embodying the highest level of innovation, creativity, and
+              culture.
               <br />
               <br />
-              From initial conception to deployment, I help
-              people solve problems through a holistic design approach while
-              utilizing my rapidly growing technical skills in front and back
-              end web development to transfer a brand’s personality seamlessly
-              throughout the interface of a product. I am passionate about not
-              only creating aesthetically pleasing designs but products that
-              function at the highest possible level in order to enhance a
-              user’s experience on a digital screen.
+              Below is a list of recent projects! Please feel free to contact me
+              at hello@mychalmartinez.com for questions or inquiries.
             </p>
           </div>
         </div>
