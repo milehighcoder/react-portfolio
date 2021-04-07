@@ -15,7 +15,7 @@ class About extends Component {
           </div>
           <div className="col-lg-7 bio-text">
             <p>
-              Welcome to my portfolio! I am a Technical Project Manager
+              My name is Mychal Martinez. I am a Technical Project Manager
               (Professional Scrum Master certification in progress) with over 8
               years of business and program management experience. I am a
               certified web developer with an eye for design, exceptional
